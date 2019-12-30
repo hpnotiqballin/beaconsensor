@@ -37,4 +37,6 @@ while True:
                   elif value <= -1:
                       count += 1
                   if count == 300:
-                      requests.get('departed')             
+                      requests.get('departed')
+                  if count >= 1000:
+                      count = 0
